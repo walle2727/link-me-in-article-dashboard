@@ -228,6 +228,53 @@ export async function saveEncryptedJsonToGitHub(options: {
   return response.json();
 }
 
+export function createQueueItemFromArticle(article: Article, priority: number): QueueItem {
+  return {
+    id: `queue-${article.id}`,
+    articleIds: [article.id],
+    workingTitle: article.title,
+    angle: article.suggestedAngle || article.summary || 'Define the LinkedIn angle before drafting.',
+    status: 'selected',
+    priority,
+    plannedFor: null,
+    postType: 'LinkedIn post',
+    notes: `Auto-created from Article inbox when marked queued. Source: ${article.source}`,
+    createdAt: new Date().toISOString(),
+  };
+}
+
+export function applyArticleStatus(
+  data: { articles: Article[]; queue: QueueItem[] },
+  articleId: string,
+  status: ArticleStatus,
+): { articles: Article[]; queue: QueueItem[] } {
+  const article = data.articles.find((item) => item.id === articleId);
+  if (!article) return data;
+
+  const articles = data.articles.map((item) => item.id === articleId ? { ...item, status } : item);
+  const existingQueueIndex = data.queue.findIndex((item) => item.articleIds.includes(articleId));
+
+  if (status === 'queued') {
+    if (existingQueueIndex !== -1) return { articles, queue: data.queue };
+    const maxPriority = data.queue.reduce((max, item) => Math.max(max, item.priority), 0);
+    return { articles, queue: [...data.queue, createQueueItemFromArticle({ ...article, status }, maxPriority + 1)] };
+  }
+
+  if (existingQueueIndex !== -1) {
+    const existing = data.queue[existingQueueIndex];
+    const autoCreatedForArticle = existing.id === `queue-${articleId}` && existing.articleIds.length === 1;
+    if (autoCreatedForArticle) {
+      const queue = data.queue
+        .filter((_, index) => index !== existingQueueIndex)
+        .sort((a, b) => a.priority - b.priority)
+        .map((item, index) => ({ ...item, priority: index + 1 }));
+      return { articles, queue };
+    }
+  }
+
+  return { articles, queue: data.queue };
+}
+
 export function reorderQueue(queue: QueueItem[], fromIndex: number, toIndex: number): QueueItem[] {
   if (fromIndex === toIndex || fromIndex < 0 || toIndex < 0 || fromIndex >= queue.length || toIndex >= queue.length) return queue;
   const next = [...queue].sort((a, b) => a.priority - b.priority);

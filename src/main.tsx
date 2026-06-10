@@ -4,6 +4,7 @@ import { Archive, BarChart3, Calendar, CheckCircle2, ExternalLink, Filter, Histo
 import {
   DATA_PATHS,
   DEFAULT_GITHUB_TARGET,
+  applyArticleStatus,
   decryptJson,
   draftFromQueueItem,
   isEncryptedEnvelope,
@@ -90,10 +91,11 @@ function App() {
 
   const themes = useMemo(() => Array.from(new Set(articles.flatMap((a) => a.themes))).sort(), [articles]);
   const stats = useMemo(() => {
+    const shortlisted = articles.filter((a) => a.status === 'shortlisted').length;
     const selected = articles.filter((a) => ['shortlisted', 'queued', 'used'].includes(a.status)).length;
     const rejected = articles.filter((a) => a.status === 'rejected').length;
     const avgScore = articles.length ? Math.round(articles.reduce((sum, a) => sum + priorityScore(a), 0) / articles.length) : 0;
-    return { total: articles.length, selected, rejected, avgScore, queued: queue.length, posts: posts.length };
+    return { total: articles.length, shortlisted, selected, rejected, avgScore, queued: queue.length, posts: posts.length };
   }, [articles, queue.length, posts.length]);
 
   const filtered = useMemo(() => {
@@ -134,6 +136,17 @@ function App() {
   }
 
   function updateArticle(id: string, patch: Partial<Article>) {
+    if (patch.status) {
+      setData((current) => {
+        const next = applyArticleStatus({ articles: current.articles, queue: current.queue }, id, patch.status!);
+        const articles = next.articles.map((article) => article.id === id ? { ...article, ...patch } : article);
+        const article = current.articles.find((item) => item.id === id);
+        const statusLabel = patch.status === 'queued' ? 'Future pile' : patch.status;
+        setMessage(article ? `Moved “${article.title}” to ${statusLabel}. Save articles + queue to persist.` : 'Status updated.');
+        return { ...current, articles, queue: next.queue };
+      });
+      return;
+    }
     setData((current) => ({ ...current, articles: current.articles.map((article) => article.id === id ? { ...article, ...patch } : article) }));
   }
 
@@ -160,6 +173,38 @@ function App() {
       setMessage(`Saved encrypted ${path}.json to GitHub. GitHub Pages will redeploy from main.`);
     } catch (error) {
       setMessage(error instanceof Error ? error.message : `Could not save ${path}.json.`);
+    } finally {
+      setSaving(null);
+    }
+  }
+
+  async function saveAllWorkflowData() {
+    if (!githubToken.trim()) {
+      setMessage('Paste a fine-grained GitHub token with Contents read/write before saving.');
+      return;
+    }
+    setSaving('articles');
+    setMessage('Saving encrypted article reviews and queue to GitHub…');
+    try {
+      await saveEncryptedJsonToGitHub({
+        target: DEFAULT_GITHUB_TARGET,
+        path: DATA_PATHS.articles,
+        token: githubToken.trim(),
+        passphrase,
+        data: articles,
+        message: 'chore(data): update encrypted article reviews',
+      });
+      await saveEncryptedJsonToGitHub({
+        target: DEFAULT_GITHUB_TARGET,
+        path: DATA_PATHS.queue,
+        token: githubToken.trim(),
+        passphrase,
+        data: queue,
+        message: 'chore(data): update encrypted queue',
+      });
+      setMessage('Saved encrypted article reviews and queue to GitHub. GitHub Pages will redeploy from main.');
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : 'Could not save workflow data.');
     } finally {
       setSaving(null);
     }
@@ -193,8 +238,8 @@ function App() {
           <strong>Encrypted static mode</strong>
           <p>The repo is private and the public data files are encrypted AES-GCM envelopes. The token below is not stored.</p>
           <label className="stacked"><span>GitHub token for save</span><input type="password" value={githubToken} onChange={(event) => setGithubToken(event.target.value)} placeholder="fine-grained Contents RW token" /></label>
-          <button className="secondary full" disabled={saving === 'articles'} onClick={() => saveDataSet('articles', articles)}><Save size={15} /> Save article reviews</button>
-          <button className="secondary full" disabled={saving === 'queue'} onClick={() => saveDataSet('queue', queue)}><Save size={15} /> Save queue order</button>
+          <button className="secondary full" disabled={saving !== null} onClick={saveAllWorkflowData}><Save size={15} /> Save workflow data</button>
+          <p className="tiny">Changing an article to Queue now creates/removes a Future pile card immediately.</p>
           <p className="tiny">{message}</p>
         </div>
       </aside>
@@ -214,7 +259,13 @@ function App() {
 
         {active === 'inbox' && (
           <section className="panel">
-            <div className="panelHeader"><div><h2>Article inbox</h2><p>Review candidates found by the current-thread scout.</p></div><div className="buttonRow"><button className="secondary" onClick={exportReviewJson}>Export JSON</button><button className="secondary" disabled={saving === 'articles'} onClick={() => saveDataSet('articles', articles)}><Save size={15} /> Save to GitHub</button></div></div>
+            <div className="panelHeader"><div><h2>Article inbox</h2><p>Review candidates found by the current-thread scout. Changing status now moves the article through the workflow piles.</p></div><div className="buttonRow"><button className="secondary" onClick={exportReviewJson}>Export JSON</button><button className="secondary" disabled={saving !== null} onClick={saveAllWorkflowData}><Save size={15} /> Save workflow</button></div></div>
+            <div className="pileStrip">
+              <button className={status === 'new' ? 'active' : ''} onClick={() => setStatus('new')}><strong>{articles.filter((a) => a.status === 'new').length}</strong><span>New</span></button>
+              <button className={status === 'shortlisted' ? 'active' : ''} onClick={() => setStatus('shortlisted')}><strong>{stats.shortlisted}</strong><span>Shortlist</span></button>
+              <button onClick={() => setActive('queue')}><strong>{stats.queued}</strong><span>Future pile</span></button>
+              <button className={status === 'rejected' ? 'active' : ''} onClick={() => setStatus('rejected')}><strong>{stats.rejected}</strong><span>Rejected</span></button>
+            </div>
             <div className="filters">
               <label className="search"><Search size={17} /><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search subjects, sources, angles…" /></label>
               <label><Filter size={17} /> Theme<select value={theme} onChange={(e) => setTheme(e.target.value)}><option value="all">All themes</option>{themes.map((t) => <option key={t} value={t}>{themeLabels[t] ?? t}</option>)}</select></label>
