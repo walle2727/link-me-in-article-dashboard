@@ -1,40 +1,11 @@
-[
-  {
-    "id": "queue-001",
-    "articleIds": [
-      "article-2026-06-10-c5a3254f"
-    ],
-    "workingTitle": "AI-generated content labels are becoming a product requirement",
-    "angle": "Treat disclosure, provenance, UX copy and vendor contracts as product/design decisions, not compliance afterthoughts.",
-    "status": "selected",
-    "priority": 1,
-    "plannedFor": "2026-06-12",
-    "postType": "practical-lesson",
-    "notes": "Strong fit for responsible AI / governance lane; current EU AI Act transparency angle.",
-    "createdAt": "2026-06-10T20:00:00+02:00"
-  },
-  {
-    "id": "queue-002",
-    "articleIds": [],
-    "workingTitle": "Why AI adoption in business needs structure, not just enthusiasm",
-    "angle": "Enthusiasm starts pilots; structure, oversight and traceability make AI useful and trustworthy.",
-    "status": "ideas",
-    "priority": 2,
-    "plannedFor": null,
-    "postType": "opinion",
-    "notes": "From existing LinkedIn plan reminder.",
-    "createdAt": "2026-06-08T18:30:00+02:00"
-  },
-  {
-    "id": "queue-003",
-    "articleIds": [],
-    "workingTitle": "What building a compliance-oriented AI tool changes in product thinking",
-    "angle": "Law-first workflows force clarity, documentation, traceability and human oversight into the product core.",
-    "status": "needs-research",
-    "priority": 3,
-    "plannedFor": null,
-    "postType": "build-in-public",
-    "notes": "Existing Thursday lane candidate from LinkedIn plan.",
-    "createdAt": "2026-06-01T00:00:00+02:00"
-  }
-]
+{
+  "version": 1,
+  "contentType": "application/json",
+  "algorithm": "AES-GCM",
+  "kdf": "PBKDF2-SHA256",
+  "iterations": 250000,
+  "salt": "QR2aw444hdyg7eMOlothzw==",
+  "iv": "3BFR2OiI+mJJ2+3b",
+  "ciphertext": "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",
+  "encryptedAt": "2026-06-10T21:15:20.757Z"
+}

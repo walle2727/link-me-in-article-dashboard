@@ -1,66 +1,11 @@
-[
-  {
-    "id": "post-2026-06-02",
-    "title": "Migrating from OpenClaw to Hermes: what continuity taught me about personal AI assistants",
-    "url": "",
-    "publishedAt": "2026-06-02",
-    "themes": [
-      "building-in-public",
-      "responsible-ai"
-    ],
-    "sourceArticleIds": [],
-    "notes": "Posted; URL not yet recorded."
-  },
-  {
-    "id": "post-2026-05-22",
-    "title": "Free local legal-text RAG tool / Legal text RAGifier",
-    "url": "https://github.com/pastpap/legal-text-ragifier",
-    "publishedAt": "2026-05-22",
-    "themes": [
-      "responsible-ai",
-      "governance",
-      "privacy"
-    ],
-    "sourceArticleIds": [],
-    "notes": "Posted; URL not yet recorded."
-  },
-  {
-    "id": "post-2026-05-01",
-    "title": "Responsible AI / AI governance / local Ollama + edge AI product thinking",
-    "url": "https://www.linkedin.com/posts/stefanpapin_responsibleai-ai-aigovernance-ugcPost-7455904055517876224-bxNA",
-    "publishedAt": "2026-05-01",
-    "themes": [
-      "responsible-ai",
-      "ai-governance",
-      "edge-ai"
-    ],
-    "sourceArticleIds": [],
-    "notes": "Published LinkedIn post."
-  },
-  {
-    "id": "post-2026-04-28",
-    "title": "Responsible AI use starts with boundaries",
-    "url": "",
-    "publishedAt": "2026-04-28",
-    "themes": [
-      "responsible-ai",
-      "human-oversight",
-      "trust"
-    ],
-    "sourceArticleIds": [],
-    "notes": "Published; added practical AI literacy call to action."
-  },
-  {
-    "id": "post-2026-04-21",
-    "title": "Agentic AI hackathon 2026",
-    "url": "",
-    "publishedAt": "2026-04-21",
-    "themes": [
-      "agentic-workflows",
-      "test-automation",
-      "building-in-public"
-    ],
-    "sourceArticleIds": [],
-    "notes": "Published; multi-agent release testing workflow."
-  }
-]
+{
+  "version": 1,
+  "contentType": "application/json",
+  "algorithm": "AES-GCM",
+  "kdf": "PBKDF2-SHA256",
+  "iterations": 250000,
+  "salt": "L8AEHOq9d3r2ac7zSB7jfw==",
+  "iv": "OA2DqDD8w2/lW/Ly",
+  "ciphertext": "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",
+  "encryptedAt": "2026-06-10T21:15:20.838Z"
+}
