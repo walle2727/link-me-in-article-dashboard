@@ -19,7 +19,8 @@ Important boundaries:
 - Article inbox seeded from past Hermes cron scout outputs.
 - Filters by theme, status, search text and sort mode.
 - Review controls for status, stars and notes.
-- GitHub Contents API write-back for encrypted article review persistence.
+- Status-driven workflow piles: setting an article to Queue immediately creates a Future pile item; moving it out removes the auto-created queue item.
+- GitHub Contents API write-back for encrypted article review and queue persistence.
 - Future LinkedIn article pile seeded from the current content plan.
 - Drag-and-drop queue ordering with encrypted queue save.
 - Draft-from-selected-queue-item flow.

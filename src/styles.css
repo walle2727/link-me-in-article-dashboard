@@ -55,6 +55,11 @@ h1 { max-width: 900px; font-size: clamp(34px, 5vw, 64px); line-height: .96; marg
 .full { width: 100%; margin-top: 8px; }
 .compact { margin-top: 12px; padding: 8px 11px; font-size: 13px; }
 .buttonRow { display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+.pileStrip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 0 0 18px; }
+.pileStrip button { display: grid; gap: 4px; justify-items: start; color: var(--muted); background: rgba(255,255,255,.035); border: 1px solid var(--line); border-radius: 18px; padding: 14px; text-align: left; }
+.pileStrip button:hover, .pileStrip button.active { color: var(--text); border-color: rgba(56,189,248,.4); background: rgba(56,189,248,.1); }
+.pileStrip strong { color: var(--text); font-size: 26px; line-height: 1; }
+.pileStrip span { font-size: 13px; }
 .filters { display: grid; grid-template-columns: minmax(240px, 1fr) repeat(3, auto); gap: 10px; margin-bottom: 18px; }
 .filters label, .stacked { display: flex; gap: 8px; align-items: center; color: var(--muted); background: rgba(255,255,255,.04); border: 1px solid var(--line); border-radius: 14px; padding: 10px 12px; }
 .stacked { align-items: stretch; flex-direction: column; margin: 12px 0; }

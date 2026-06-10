@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { decryptJson, draftFromQueueItem, encryptJson, isEncryptedEnvelope, reorderQueue, upsertArticle, type Article, type QueueItem } from './data';
+import { applyArticleStatus, decryptJson, draftFromQueueItem, encryptJson, isEncryptedEnvelope, reorderQueue, upsertArticle, type Article, type QueueItem } from './data';
 
 const baseArticle: Article = {
   id: 'a-1',
@@ -49,6 +49,35 @@ describe('article upsert', () => {
     expect(deduped[0].userRating).toBe(5);
     expect(deduped[0].notes).toBe('Keep this one');
     expect(deduped[0].summary).toBe('New scout summary');
+  });
+});
+
+describe('article status workflow', () => {
+  it('creates a future-pile queue item when an article is marked queued', () => {
+    const result = applyArticleStatus({ articles: [baseArticle], queue: [] }, 'a-1', 'queued');
+    expect(result.articles[0].status).toBe('queued');
+    expect(result.queue).toHaveLength(1);
+    expect(result.queue[0]).toMatchObject({
+      articleIds: ['a-1'],
+      workingTitle: baseArticle.title,
+      angle: baseArticle.suggestedAngle,
+      priority: 1,
+      status: 'selected',
+    });
+  });
+
+  it('does not duplicate an existing queue item for the same article', () => {
+    const existingQueue: QueueItem[] = [{ ...queue[0], articleIds: ['a-1'] }];
+    const result = applyArticleStatus({ articles: [baseArticle], queue: existingQueue }, 'a-1', 'queued');
+    expect(result.queue).toHaveLength(1);
+    expect(result.queue[0].id).toBe(existingQueue[0].id);
+  });
+
+  it('removes auto-created queue items when an article leaves queued status', () => {
+    const queued = applyArticleStatus({ articles: [baseArticle], queue: [] }, 'a-1', 'queued');
+    const result = applyArticleStatus(queued, 'a-1', 'shortlisted');
+    expect(result.articles[0].status).toBe('shortlisted');
+    expect(result.queue).toHaveLength(0);
   });
 });
 
