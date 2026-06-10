@@ -7,6 +7,8 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "tsc && vite build",
+    "test": "vitest run",
+    "append:candidate": "node scripts/append-candidate.mjs",
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
@@ -19,6 +21,7 @@
   },
   "devDependencies": {
     "@types/react": "^19.2.17",
-    "@types/react-dom": "^19.2.3"
+    "@types/react-dom": "^19.2.3",
+    "vitest": "^4.1.8"
   }
 }
