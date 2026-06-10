@@ -1,0 +1,66 @@
+[
+  {
+    "id": "post-2026-06-02",
+    "title": "Migrating from OpenClaw to Hermes: what continuity taught me about personal AI assistants",
+    "url": "",
+    "publishedAt": "2026-06-02",
+    "themes": [
+      "building-in-public",
+      "responsible-ai"
+    ],
+    "sourceArticleIds": [],
+    "notes": "Posted; URL not yet recorded."
+  },
+  {
+    "id": "post-2026-05-22",
+    "title": "Free local legal-text RAG tool / Legal text RAGifier",
+    "url": "https://github.com/pastpap/legal-text-ragifier",
+    "publishedAt": "2026-05-22",
+    "themes": [
+      "responsible-ai",
+      "governance",
+      "privacy"
+    ],
+    "sourceArticleIds": [],
+    "notes": "Posted; URL not yet recorded."
+  },
+  {
+    "id": "post-2026-05-01",
+    "title": "Responsible AI / AI governance / local Ollama + edge AI product thinking",
+    "url": "https://www.linkedin.com/posts/stefanpapin_responsibleai-ai-aigovernance-ugcPost-7455904055517876224-bxNA",
+    "publishedAt": "2026-05-01",
+    "themes": [
+      "responsible-ai",
+      "ai-governance",
+      "edge-ai"
+    ],
+    "sourceArticleIds": [],
+    "notes": "Published LinkedIn post."
+  },
+  {
+    "id": "post-2026-04-28",
+    "title": "Responsible AI use starts with boundaries",
+    "url": "",
+    "publishedAt": "2026-04-28",
+    "themes": [
+      "responsible-ai",
+      "human-oversight",
+      "trust"
+    ],
+    "sourceArticleIds": [],
+    "notes": "Published; added practical AI literacy call to action."
+  },
+  {
+    "id": "post-2026-04-21",
+    "title": "Agentic AI hackathon 2026",
+    "url": "",
+    "publishedAt": "2026-04-21",
+    "themes": [
+      "agentic-workflows",
+      "test-automation",
+      "building-in-public"
+    ],
+    "sourceArticleIds": [],
+    "notes": "Published; multi-agent release testing workflow."
+  }
+]

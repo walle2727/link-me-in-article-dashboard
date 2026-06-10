@@ -1,0 +1,1358 @@
+[
+  {
+    "id": "article-2026-06-07-cd6f3567",
+    "title": "Human oversight” is strongest when designed into the workflow",
+    "url": "https://www.who.int/news/item/02-06-2026-new-who-discussion-paper-sets-out-opportunities-and-risks-of-ai-in-evidence-informed-health-policy",
+    "source": "who.int",
+    "foundAt": "2026-06-07 08:02:17",
+    "publishedAt": "2026-06-07",
+    "summary": "WHO’s June 2 discussion paper on AI in evidence-informed health policy stresses that AI should augment, not automate, human judgement.",
+    "suggestedAngle": "Oversight is not one approval button at the end; it is deciding where humans frame questions, check evidence, interpret context, and accept accountability.",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.who.int/news/item/02-06-2026-new-who-discussion-paper-sets-out-opportunities-and-risks-of-ai-in-evidence-informed-health-policy"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-07_08-02-17.md"
+  },
+  {
+    "id": "article-2026-06-07-66958b5a",
+    "title": "Low-code agent builders are useful, but durable workflows probably need code",
+    "url": "https://openai.com/index/introducing-agentkit/",
+    "source": "openai.com",
+    "foundAt": "2026-06-07 08:02:17",
+    "publishedAt": "2026-06-07",
+    "summary": "OpenAI updated AgentKit on June 3, saying Agent Builder and Evals products will wind down, recommending Agents SDK for workflows that should continue as code.",
+    "suggestedAngle": "A good builder-in-public topic: prototypes can start visually, but production agent systems need versioning, tests, ownership, observability, and maintainability.",
+    "themes": [
+      "building-in-public"
+    ],
+    "lane": "builder-in-public",
+    "status": "new",
+    "agentScore": 80,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 4,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://openai.com/index/introducing-agentkit/",
+      "https://developers.openai.com/api/docs/guides/agents"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-07_08-02-17.md"
+  },
+  {
+    "id": "article-2026-06-07-42b54fa0",
+    "title": "AI-assisted development increases supply-chain pressure",
+    "url": "https://www.esecurityplanet.com/threats/ai-software-supply-chain-threats-escalate-in-2026/",
+    "source": "esecurityplanet.com",
+    "foundAt": "2026-06-07 08:02:17",
+    "publishedAt": "2026-06-07",
+    "summary": "Recent software supply-chain reporting highlights rising malicious package activity, attacks on developer tooling, and AI pipeline governance gaps.",
+    "suggestedAngle": "Faster coding does not automatically mean safer delivery; AI-assisted teams need dependency hygiene, package provenance, review discipline, and security checks in the workflow.",
+    "themes": [
+      "cybersecurity-trust"
+    ],
+    "lane": "cybersecurity/trust",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.esecurityplanet.com/threats/ai-software-supply-chain-threats-escalate-in-2026/",
+      "https://www.reversinglabs.com/sscs-report"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-07_08-02-17.md"
+  },
+  {
+    "id": "article-2026-06-07-7625e944",
+    "title": "Stop governing all AI agents the same way",
+    "url": "https://www.theregister.com/ai-and-ml/2026/06/05/agentic-ai-hype-races-ahead-as-enterprises-remain-stuck-in-pilot-mode/5251711",
+    "source": "theregister.com",
+    "foundAt": "2026-06-07 18:01:04",
+    "publishedAt": "2026-06-07",
+    "summary": "The Register’s June 5 piece says agentic AI is moving beyond short tasks while many enterprises remain stuck in pilots; Gartner recently warned that uniform governance across agents leads to failure.",
+    "suggestedAngle": "Argue for risk-tiered autonomy: read-only agents, workflow agents, code-writing agents, and externally acting agents need different controls.",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 80,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.theregister.com/ai-and-ml/2026/06/05/agentic-ai-hype-races-ahead-as-enterprises-remain-stuck-in-pilot-mode/5251711",
+      "https://www.gartner.com/en/newsroom/press-releases/2026-05-26-gartner-says-applying-uniform-governance-across-ai-agents-will-lead-to-enterprise-ai-agent-failure"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-07_18-01-04.md"
+  },
+  {
+    "id": "article-2026-06-07-bdf93585",
+    "title": "Human oversight is not a checkbox — it is a workflow design problem",
+    "url": "https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines",
+    "source": "digital-strategy.ec.europa.eu",
+    "foundAt": "2026-06-07 18:01:04",
+    "publishedAt": "2026-06-07",
+    "summary": "EU AI Act implementation guidance is actively being prepared, including high-risk classification, transparency, incident reporting, and human oversight expectations.",
+    "suggestedAngle": "Translate “human in the loop” into builder language: escalation paths, review queues, audit logs, override rights, and clear responsibility.",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines",
+      "https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-high-risk-systems",
+      "https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-07_18-01-04.md"
+  },
+  {
+    "id": "article-2026-06-07-ecc31918",
+    "title": "The new agent security question: what can this thing actually touch?",
+    "url": "https://www.theregister.com/ai-and-ml/2026/06/03/ai-agents-can-now-manipulate-your-organization-are-you-ready/5250444",
+    "source": "theregister.com",
+    "foundAt": "2026-06-07 18:01:04",
+    "publishedAt": "2026-06-07",
+    "summary": "Recent agent-security discussions highlight prompt injection, MCP/tool access, agent permissions, and cases where agents can manipulate systems they should only read from.",
+    "suggestedAngle": "Push a practical “least privilege for agents” checklist: tool allowlists, scoped tokens, approval gates, sandboxing, and telemetry before production rollout.",
+    "themes": [
+      "cybersecurity-trust"
+    ],
+    "lane": "cybersecurity/trust",
+    "status": "new",
+    "agentScore": 85,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.theregister.com/ai-and-ml/2026/06/03/ai-agents-can-now-manipulate-your-organization-are-you-ready/5250444",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/",
+      "https://github.blog/security/hack-the-ai-agent-build-agentic-ai-security-skills-with-the-github-secure-code-game/"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-07_18-01-04.md"
+  },
+  {
+    "id": "article-2026-06-07-a1fe4117",
+    "title": "AI coding agents need secure SDLC guardrails, not vibes",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/",
+    "source": "microsoft.com",
+    "foundAt": "2026-06-07 18:01:04",
+    "publishedAt": "2026-06-07",
+    "summary": "Microsoft’s Build 2026 security announcements and GitHub’s agentic security work put secure code, agents, models, and remediation into one lifecycle conversation.",
+    "suggestedAngle": "Frame AI coding as a team workflow change: code review, dependency scanning, secret scanning, test coverage, and threat modeling matter more when code volume accelerates.",
+    "themes": [
+      "software-development"
+    ],
+    "lane": "software development",
+    "status": "new",
+    "agentScore": 80,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 4,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/",
+      "https://github.blog/changelog/2026-03-17-secret-scanning-in-ai-coding-agents-via-the-github-mcp-server/",
+      "https://github.blog/changelog/2026-04-07-dependabot-alerts-are-now-assignable-to-ai-agents-for-remediation/"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-07_18-01-04.md"
+  },
+  {
+    "id": "article-2026-06-07-42c05c09",
+    "title": "EU AI Act prep: inventory first, opinions later",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "source": "digital-strategy.ec.europa.eu",
+    "foundAt": "2026-06-07 18:01:04",
+    "publishedAt": "2026-06-07",
+    "summary": "With August 2026 AI Act milestones approaching and official guidance/sandboxes in motion, teams need to know which systems they actually run before debating compliance details.",
+    "suggestedAngle": "Recommend a lightweight AI system register: purpose, users, model/provider, data used, risk category, human owner, controls, and evidence.",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 79,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "https://artificialintelligenceact.eu/implementation-timeline/",
+      "https://artificialintelligenceact.eu/"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-07_18-01-04.md"
+  },
+  {
+    "id": "article-2026-06-07-b629bd17",
+    "title": "Supply-chain risk now includes your AI tooling",
+    "url": "https://www.reversinglabs.com/sscs-report",
+    "source": "reversinglabs.com",
+    "foundAt": "2026-06-07 18:01:04",
+    "publishedAt": "2026-06-07",
+    "summary": "Recent software supply-chain security reporting points to attacks on developer tooling, open-source packages, and AI development pipelines as AI-assisted development scales.",
+    "suggestedAngle": "Make the builder case for boring controls: pinned dependencies, provenance, SBOMs, secret hygiene, plugin reviews, and “no random MCP server in prod.”",
+    "themes": [
+      "cybersecurity-trust"
+    ],
+    "lane": "cybersecurity/trust",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.reversinglabs.com/sscs-report",
+      "https://www.esecurityplanet.com/threats/ai-software-supply-chain-threats-escalate-in-2026/",
+      "https://www.darkreading.com/application-security/coders-adopt-ai-agents-security-pitfalls-lurk-2026"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-07_18-01-04.md"
+  },
+  {
+    "id": "article-2026-06-08-067dfeee",
+    "title": "Agents need guardrails before they need more autonomy",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/",
+    "source": "microsoft.com",
+    "foundAt": "2026-06-08 08:02:01",
+    "publishedAt": "2026-06-08",
+    "summary": "Microsoft used Build 2026 to push agent controls, observability, access control, and compliance into developer workflows.",
+    "suggestedAngle": "The practical question is no longer “should we use agents?” but “what permissions, logs, review gates, and human override paths make agents safe enough for real work?”",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 80,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/",
+      "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-08_08-02-01.md"
+  },
+  {
+    "id": "article-2026-06-08-e503d493",
+    "title": "EU tech sovereignty is becoming an architecture decision",
+    "url": "https://commission.europa.eu/news-and-media/news/strengthening-europes-tech-sovereignty-2026-06-03_en",
+    "source": "commission.europa.eu",
+    "foundAt": "2026-06-08 08:02:01",
+    "publishedAt": "2026-06-08",
+    "summary": "On 3 June, the European Commission proposed a tech sovereignty package covering AI, cloud, semiconductors, and open source; Reuters frames it as reducing reliance on U.S. Big Tech.",
+    "suggestedAngle": "Teams should translate “sovereignty” into concrete design choices: data residency, exit plans, model/provider portability, open-source dependencies, and procurement criteria.",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://commission.europa.eu/news-and-media/news/strengthening-europes-tech-sovereignty-2026-06-03_en",
+      "https://www.reuters.com/business/eu-targets-big-tech-dependence-with-made-in-europe-drive-2026-06-03/"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-08_08-02-01.md"
+  },
+  {
+    "id": "article-2026-06-08-d02b3a55",
+    "title": "The AI Act timeline is shifting, but readiness should not",
+    "url": "https://www.reuters.com/world/eu-countries-lawmakers-strike-provisional-deal-watered-down-ai-rules-2026-05-07/",
+    "source": "reuters.com",
+    "foundAt": "2026-06-08 08:02:01",
+    "publishedAt": "2026-06-08",
+    "summary": "Recent EU negotiations point to watered-down or delayed AI Act obligations, while businesses still face staged compliance pressure and uncertainty.",
+    "suggestedAngle": "Don’t wait for perfect regulatory clarity; build the boring foundations now: system inventory, risk classification, documentation, human oversight, logging, incident handling.",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.reuters.com/world/eu-countries-lawmakers-strike-provisional-deal-watered-down-ai-rules-2026-05-07/",
+      "https://artificialintelligenceact.eu/",
+      "https://www.legalnodes.com/article/eu-ai-act-2026-updates-compliance-requirements-and-business-risks"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-08_08-02-01.md"
+  },
+  {
+    "id": "article-2026-06-08-917cffa0",
+    "title": "AI coding agents are now part of security work — both sides of it",
+    "url": "https://www.theregister.com/security/2026/06/04/openais-codex-chains-decade-old-dos-techniques-into-http/2-bomb/5251377",
+    "source": "theregister.com",
+    "foundAt": "2026-06-08 08:02:01",
+    "publishedAt": "2026-06-08",
+    "summary": "The Register reported on 4 June that OpenAI’s Codex helped uncover a serious HTTP/2 denial-of-service exploit chain.",
+    "suggestedAngle": "This is a good “responsible builder” story: AI can accelerate vulnerability discovery, but teams need controlled environments, disclosure discipline, and human validation before acting on agent findings.",
+    "themes": [
+      "software-development"
+    ],
+    "lane": "cybersecurity/trust",
+    "status": "new",
+    "agentScore": 85,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 4,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.theregister.com/security/2026/06/04/openais-codex-chains-decade-old-dos-techniques-into-http/2-bomb/5251377"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-08_08-02-01.md"
+  },
+  {
+    "id": "article-2026-06-08-35e69bd2",
+    "title": "WWDC is another test of whether AI becomes workflow, not wallpaper",
+    "url": "https://developer.apple.com/wwdc26/",
+    "source": "developer.apple.com",
+    "foundAt": "2026-06-08 08:02:01",
+    "publishedAt": "2026-06-08",
+    "summary": "Apple’s WWDC starts today, with Apple teasing AI advancements and new developer tools.",
+    "suggestedAngle": "A useful post could avoid product speculation and ask: what makes platform AI genuinely useful for builders — local context, privacy boundaries, predictable APIs, and user control?",
+    "themes": [
+      "software-development"
+    ],
+    "lane": "software development",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 4,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://developer.apple.com/wwdc26/",
+      "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/",
+      "https://techcrunch.com/2026/03/23/apple-wwdc-june-8-12-ai-advancements-siri-developers-conference/"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-08_08-02-01.md"
+  },
+  {
+    "id": "article-2026-06-08-7fc5d473",
+    "title": "AI-assisted development is mainstream; review culture is the differentiator",
+    "url": "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026",
+    "source": "newsletter.pragmaticengineer.com",
+    "foundAt": "2026-06-08 08:02:01",
+    "publishedAt": "2026-06-08",
+    "summary": "Recent developer-tooling discussions cite very high weekly AI usage and rising agent adoption among engineers.",
+    "suggestedAngle": "The strongest teams won’t be the ones generating the most code; they’ll be the ones with better review checklists, test discipline, threat modeling, and clear rules for when humans must decide.",
+    "themes": [
+      "software-development"
+    ],
+    "lane": "software development",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 4,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026",
+      "https://resources.anthropic.com/2026-agentic-coding-trends-report"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-08_08-02-01.md"
+  },
+  {
+    "id": "article-2026-06-08-b50ed62d",
+    "title": "MCP and tool-connected agents need DevSecOps treatment",
+    "url": "https://arxiv.org/html/2603.21642v1",
+    "source": "arxiv.org",
+    "foundAt": "2026-06-08 08:02:01",
+    "publishedAt": "2026-06-08",
+    "summary": "Recent security discussions around MCP point to prompt injection, tool poisoning, exposed servers, and metadata leakage risks.",
+    "suggestedAngle": "Treat agent tools like production integrations: least privilege, allowlists, secrets hygiene, logging, dependency review, and adversarial testing before rollout.",
+    "themes": [
+      "cybersecurity-trust"
+    ],
+    "lane": "cybersecurity/trust",
+    "status": "new",
+    "agentScore": 80,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://arxiv.org/html/2603.21642v1",
+      "https://unit42.paloaltonetworks.com/model-context-protocol-attack-vectors/",
+      "https://www.practical-devsecops.com/mcp-security-vulnerabilities/"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-08_08-02-01.md"
+  },
+  {
+    "id": "article-2026-06-08-bb747108",
+    "title": "AI agents need sandboxes, not just prompts",
+    "url": "https://github.blog/changelog/2026-06-02-cloud-and-local-sandboxes-for-github-copilot-now-in-public-preview/",
+    "source": "github.blog",
+    "foundAt": "2026-06-08 18:01:49",
+    "publishedAt": "2026-06-08",
+    "summary": "GitHub’s Copilot cloud/local sandboxes preview and Microsoft’s Build security announcements both frame agentic development as requiring isolation, identity, governance and policy controls.",
+    "suggestedAngle": "Treat agent tooling like a new execution environment: define where agents may act, what they may access, how actions are logged, and when humans approve.",
+    "themes": [
+      "cybersecurity-trust"
+    ],
+    "lane": "cybersecurity/trust",
+    "status": "new",
+    "agentScore": 80,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://github.blog/changelog/2026-06-02-cloud-and-local-sandboxes-for-github-copilot-now-in-public-preview/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-08_18-01-50.md"
+  },
+  {
+    "id": "article-2026-06-08-022e3af3",
+    "title": "The developer workstation is now part of your AI governance boundary",
+    "url": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
+    "source": "thehackernews.com",
+    "foundAt": "2026-06-08 18:01:49",
+    "publishedAt": "2026-06-08",
+    "summary": "Recent security coverage is pushing the idea that IDEs, terminals, package managers, cloud CLIs, secrets and AI assistants together form a local software supply-chain boundary.",
+    "suggestedAngle": "AI governance cannot stop at model choice or policy documents; normal teams need practical controls around local dev environments, secrets, tool permissions and agent access.",
+    "themes": [
+      "cybersecurity-trust"
+    ],
+    "lane": "cybersecurity/trust",
+    "status": "new",
+    "agentScore": 79,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
+      "https://www.reversinglabs.com/sscs-report"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-08_18-01-50.md"
+  },
+  {
+    "id": "article-2026-06-08-ecb100d4",
+    "title": "Agentic coding changes the engineer’s job before it changes the org chart",
+    "url": "https://resources.anthropic.com/2026-agentic-coding-trends-report",
+    "source": "resources.anthropic.com",
+    "foundAt": "2026-06-08 18:01:49",
+    "publishedAt": "2026-06-08",
+    "summary": "Anthropic’s 2026 agentic coding report and ongoing developer discussions point to a shift from writing every line to setting architecture, constraints, tests and review loops.",
+    "suggestedAngle": "The practical skill is not “vibe coding faster”; it is learning to externalize intent, acceptance criteria and guardrails so agents can work safely.",
+    "themes": [
+      "software-development"
+    ],
+    "lane": "software development",
+    "status": "new",
+    "agentScore": 80,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 4,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://resources.anthropic.com/2026-agentic-coding-trends-report",
+      "https://news.ycombinator.com/item?id=46125341",
+      "https://news.ycombinator.com/item?id=44255608"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-08_18-01-50.md"
+  },
+  {
+    "id": "article-2026-06-08-b1e4e537",
+    "title": "EU tech sovereignty is also an open-source and AI operations story",
+    "url": "https://commission.europa.eu/news-and-media/news/strengthening-europes-tech-sovereignty-2026-06-03_en",
+    "source": "commission.europa.eu",
+    "foundAt": "2026-06-08 18:01:49",
+    "publishedAt": "2026-06-08",
+    "summary": "Older but still current: on 3 June the European Commission proposed a tech sovereignty package covering semiconductors, AI, cloud and open source.",
+    "suggestedAngle": "For builders, sovereignty should not become a slogan; it means knowing dependencies, deployability, auditability, portability and resilience before procurement forces the issue.",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://commission.europa.eu/news-and-media/news/strengthening-europes-tech-sovereignty-2026-06-03_en",
+      "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-tech-sovereignty-package-strengthen-europes-digital-autonomy-and-resilience"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-08_18-01-50.md"
+  },
+  {
+    "id": "article-2026-06-08-d1d6050d",
+    "title": "If EU AI Act timelines move, your governance work should not pause",
+    "url": "https://www.reuters.com/world/eu-countries-lawmakers-strike-provisional-deal-watered-down-ai-rules-2026-05-07/",
+    "source": "reuters.com",
+    "foundAt": "2026-06-08 18:01:49",
+    "publishedAt": "2026-06-08",
+    "summary": "Older but important: Reuters reported in May on provisional EU political agreement around watered-down/delayed AI Act obligations, keeping compliance timing uncertain.",
+    "suggestedAngle": "A delay is not a reason to wait; it is breathing room to inventory AI systems, classify risks, define human oversight and make evidence collection less painful.",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 79,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.reuters.com/world/eu-countries-lawmakers-strike-provisional-deal-watered-down-ai-rules-2026-05-07/",
+      "https://artificialintelligenceact.eu/implementation-timeline/",
+      "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-08_18-01-50.md"
+  },
+  {
+    "id": "article-2026-06-08-fbe99642",
+    "title": "AI adoption is becoming a leadership operating model, not an IT project",
+    "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+    "source": "deloitte.com",
+    "foundAt": "2026-06-08 18:01:49",
+    "publishedAt": "2026-06-08",
+    "summary": "Recent enterprise AI reporting continues to show that governance maturity and senior leadership involvement correlate with better AI value and safer adoption.",
+    "suggestedAngle": "The most useful responsible-AI conversation for ordinary organizations is: who owns decisions, who reviews risk, who monitors outcomes, and who can say no?",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+      "https://www.ey.com/en_us/newsroom/2026/03/ey-survey-autonomous-ai-adoption-surges-at-tech-companies-as-oversight-falls-behind",
+      "https://www.lexology.com/library/detail.aspx?g=c35fb8c9-f3b3-45a6-a475-1f5c967fe3a9"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-08_18-01-50.md"
+  },
+  {
+    "id": "article-2026-06-09-cd464e12",
+    "title": "Agent guardrails are becoming infrastructure, not prompt text",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/",
+    "source": "microsoft.com",
+    "foundAt": "2026-06-09 08:01:30",
+    "publishedAt": "2026-06-09",
+    "summary": "Microsoft used Build 2026 to push secure agent development, including lifecycle controls and policy-style guardrails for agent behavior.",
+    "suggestedAngle": "“Responsible AI” for builders is moving from principles to runtime enforcement: permissions, interception points, audit trails, and safe defaults.",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 80,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/",
+      "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-09_08-01-30.md"
+  },
+  {
+    "id": "article-2026-06-09-faa871b3",
+    "title": "AI-generated content labels: boring compliance, important trust layer",
+    "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-first-draft-code-practice-marking-and-labelling-ai-generated-content",
+    "source": "digital-strategy.ec.europa.eu",
+    "foundAt": "2026-06-09 08:01:30",
+    "publishedAt": "2026-06-09",
+    "summary": "The European Commission is moving toward finalising the AI Act Code of Practice for marking and labelling AI-generated content ahead of Article 50 obligations.",
+    "suggestedAngle": "Labelling should not be treated as a legal checkbox; teams need content provenance, publishing workflows, and clear internal responsibility.",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-first-draft-code-practice-marking-and-labelling-ai-generated-content",
+      "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-09_08-01-30.md"
+  },
+  {
+    "id": "article-2026-06-09-49b3a6e9",
+    "title": "The software supply chain problem now includes AI pipelines",
+    "url": "https://www.reversinglabs.com/sscs-report",
+    "source": "reversinglabs.com",
+    "foundAt": "2026-06-09 08:01:30",
+    "publishedAt": "2026-06-09",
+    "summary": "ReversingLabs’ 2026 report highlights a 73% rise in malicious open-source packages and growing attempts to target AI development pipelines.",
+    "suggestedAngle": "“Vibe coding” and agentic development need old-fashioned controls: dependency hygiene, review gates, SBOMs, secrets scanning, and continuous validation.",
+    "themes": [
+      "cybersecurity-trust"
+    ],
+    "lane": "cybersecurity/trust",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.reversinglabs.com/sscs-report",
+      "https://www.reversinglabs.com/press-releases/reversinglabs-2026-software-supply-chain-security-report-identifies-73-increase-in-malicious-open-source-packages"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-09_08-01-30.md"
+  },
+  {
+    "id": "article-2026-06-09-733664d6",
+    "title": "Coding agents don’t remove engineers; they change the job into orchestration and review",
+    "url": "https://resources.anthropic.com/2026-agentic-coding-trends-report",
+    "source": "resources.anthropic.com",
+    "foundAt": "2026-06-09 08:01:30",
+    "publishedAt": "2026-06-09",
+    "summary": "Anthropic’s 2026 Agentic Coding Trends Report frames the shift from single assistants toward coordinated agent teams and new human-AI collaboration patterns.",
+    "suggestedAngle": "The useful question is not “will AI replace developers?” but “what review, context-setting, testing, and architecture skills become more valuable?”",
+    "themes": [
+      "software-development"
+    ],
+    "lane": "software development",
+    "status": "new",
+    "agentScore": 80,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 4,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://resources.anthropic.com/2026-agentic-coding-trends-report",
+      "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-09_08-01-30.md"
+  },
+  {
+    "id": "article-2026-06-09-42712743",
+    "title": "Human oversight needs teeth: identity, permissions, and kill switches",
+    "url": "https://www.yubico.com/blog/securing-agentic-ai-why-automation-still-needs-human-oversight/",
+    "source": "yubico.com",
+    "foundAt": "2026-06-09 08:01:30",
+    "publishedAt": "2026-06-09",
+    "summary": "Current agentic AI discussions are converging on the same point: once agents can act, human-in-the-loop must be technically enforced, not just documented.",
+    "suggestedAngle": "Good oversight is a system design problem: bind agent actions to identity, scope authority, log decisions, and define when humans must approve.",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.yubico.com/blog/securing-agentic-ai-why-automation-still-needs-human-oversight/",
+      "https://www.strata.io/blog/agentic-identity/practicing-the-human-in-the-loop/"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-09_08-01-30.md"
+  },
+  {
+    "id": "article-2026-06-09-c0cf3169",
+    "title": "AI security is crossing from “find vulnerabilities” to “build exploits",
+    "url": "https://www.theregister.com/ai-ml/2026/05/15/ai-agents-show-they-can-create-exploits-not-just-find-vulns/5241453",
+    "source": "theregister.com",
+    "foundAt": "2026-06-09 08:01:30",
+    "publishedAt": "2026-06-09",
+    "summary": "Slightly older but still relevant: The Register covered research showing frontier agents can create exploits, not merely identify vulnerabilities.",
+    "suggestedAngle": "This is a practical argument for secure-by-design agent environments: sandboxing, least privilege, red-team testing, and careful tool access.",
+    "themes": [
+      "cybersecurity-trust"
+    ],
+    "lane": "cybersecurity/trust",
+    "status": "new",
+    "agentScore": 77,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.theregister.com/ai-ml/2026/05/15/ai-agents-show-they-can-create-exploits-not-just-find-vulns/5241453",
+      "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-09_08-01-30.md"
+  },
+  {
+    "id": "article-2026-06-09-897861fd",
+    "title": "AI-generated code: everyone knows the risk, teams still ship it",
+    "url": "https://www.theregister.com/devops/2026/06/09/devs-know-ai-code-is-riddled-with-holes-but-ship-it-anyway/5252824",
+    "source": "theregister.com",
+    "foundAt": "2026-06-09 18:01:17",
+    "publishedAt": "2026-06-09",
+    "summary": "The Register reports today on Checkmarx research: 70% of developers believe AI-generated code has more vulnerabilities, yet 30% knowingly ship vulnerable code.",
+    "suggestedAngle": "“AI coding is not the problem; unreviewed workflow design is.” Talk about guardrails: threat modeling, CI checks, review gates, and clear accountability.",
+    "themes": [
+      "cybersecurity-trust"
+    ],
+    "lane": "cybersecurity/trust",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.theregister.com/devops/2026/06/09/devs-know-ai-code-is-riddled-with-holes-but-ship-it-anyway/5252824"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-09_18-01-17.md"
+  },
+  {
+    "id": "article-2026-06-09-64500520",
+    "title": "WWDC and the quiet return of ‘private AI’ as a product differentiator",
+    "url": "https://www.npr.org/2026/06/08/nx-s1-5847937/apple-wwdc-2026-siri-ai-tim-cook",
+    "source": "npr.org",
+    "foundAt": "2026-06-09 18:01:17",
+    "publishedAt": "2026-06-09",
+    "summary": "Apple’s WWDC 2026 AI push put Siri, privacy, child safety, and Private Cloud Compute back in the spotlight.",
+    "suggestedAngle": "Frame privacy-preserving AI as practical trust architecture, not marketing: where does data go, who can inspect it, and what can the system actually do?",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.npr.org/2026/06/08/nx-s1-5847937/apple-wwdc-2026-siri-ai-tim-cook",
+      "https://www.theverge.com/tech/944110/wwdc-2026-news-announcements"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-09_18-01-17.md"
+  },
+  {
+    "id": "article-2026-06-09-9a3a7720",
+    "title": "Agent permissions are becoming the new API security layer",
+    "url": "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/",
+    "source": "techcrunch.com",
+    "foundAt": "2026-06-09 18:01:17",
+    "publishedAt": "2026-06-09",
+    "summary": "Microsoft recently introduced the Agent Control Specification to help developers define what agents are allowed to do across environments.",
+    "suggestedAngle": "Make the case that agent governance should start at design time: capabilities, scopes, logs, rollback, and human approval for irreversible actions.",
+    "themes": [
+      "software-development"
+    ],
+    "lane": "software development",
+    "status": "new",
+    "agentScore": 85,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 4,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-09_18-01-17.md"
+  },
+  {
+    "id": "article-2026-06-09-75ef96ac",
+    "title": "AI SBOMs: supply-chain transparency moves beyond packages",
+    "url": "https://www.cisa.gov/resources-tools/resources/software-bill-materials-ai-minimum-elements",
+    "source": "cisa.gov",
+    "foundAt": "2026-06-09 18:01:17",
+    "publishedAt": "2026-06-09",
+    "summary": "CISA and G7 partners released guidance on minimum elements for AI SBOMs, covering models, datasets, providers, licenses, and dependencies.",
+    "suggestedAngle": "Explain why “what’s inside this AI system?” is becoming a basic governance question for procurement, compliance, security, and incident response.",
+    "themes": [
+      "cybersecurity-trust"
+    ],
+    "lane": "cybersecurity/trust",
+    "status": "new",
+    "agentScore": 77,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.cisa.gov/resources-tools/resources/software-bill-materials-ai-minimum-elements",
+      "https://industrialcyber.co/sbom/cisa-g7-partners-release-sbom-for-ai-guidance-to-boost-ai-supply-chain-transparency-and-cybersecurity-resilience/"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-09_18-01-17.md"
+  },
+  {
+    "id": "article-2026-06-09-59f6c096",
+    "title": "EU AI Act simplification: don’t confuse delay with no work",
+    "url": "https://www.reuters.com/world/eu-countries-lawmakers-strike-provisional-deal-watered-down-ai-rules-2026-05-07/",
+    "source": "reuters.com",
+    "foundAt": "2026-06-09 18:01:17",
+    "publishedAt": "2026-06-09",
+    "summary": "Recent EU developments point to delayed or simplified AI Act obligations, while transparency rules still remain a near-term concern.",
+    "suggestedAngle": "A useful post: “If deadlines move, smart teams use the breathing room to build inventories, risk classifications, documentation, and human oversight patterns.”",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 79,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.reuters.com/world/eu-countries-lawmakers-strike-provisional-deal-watered-down-ai-rules-2026-05-07/",
+      "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "https://code-of-practice.ai/"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-09_18-01-17.md"
+  },
+  {
+    "id": "article-2026-06-09-a478083c",
+    "title": "Agentic coding reports are converging on the same message: humans become reviewers and orchestrators",
+    "url": "https://resources.anthropic.com/2026-agentic-coding-trends-report",
+    "source": "resources.anthropic.com",
+    "foundAt": "2026-06-09 18:01:17",
+    "publishedAt": "2026-06-09",
+    "summary": "Anthropic’s 2026 Agentic Coding Trends Report and current dev-tool discussions emphasize productivity gains, but also active human judgment.",
+    "suggestedAngle": "Push back against “AI replaces developers” and focus on the real workflow shift: from typing code to specifying, reviewing, testing, and steering.",
+    "themes": [
+      "building-in-public"
+    ],
+    "lane": "builder-in-public",
+    "status": "new",
+    "agentScore": 80,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 4,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://resources.anthropic.com/2026-agentic-coding-trends-report",
+      "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-09_18-01-17.md"
+  },
+  {
+    "id": "article-2026-06-10-e3024af4",
+    "title": "Agent governance is becoming a real enterprise control plane",
+    "url": "https://news.microsoft.com/source/2026/06/09/kpmg-and-microsoft-scale-trusted-enterprise-ai-agents-globally-through-deployment-of-agent-365-and-copilot/",
+    "source": "news.microsoft.com",
+    "foundAt": "2026-06-10 08:01:08",
+    "publishedAt": "2026-06-10",
+    "summary": "KPMG and Microsoft announced a global Agent 365/Copilot deployment focused on managing, monitoring and securing AI agents.",
+    "suggestedAngle": "“Agents don’t need less governance than humans; they need clearer scopes, logging, lifecycle ownership and escalation paths.”",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 87,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://news.microsoft.com/source/2026/06/09/kpmg-and-microsoft-scale-trusted-enterprise-ai-agents-globally-through-deployment-of-agent-365-and-copilot/",
+      "https://kpmg.com/xx/en/media/press-releases/2026/06/kpmg-and-microsoft-scale-trusted-enterprise-ai-agents-globally.html"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-10_08-01-08.md"
+  },
+  {
+    "id": "article-2026-06-10-038a4c23",
+    "title": "Coding agents move from solo productivity to team workflow risk",
+    "url": "https://siliconangle.com/2026/06/05/augment-code-launches-cosmos-bring-agentic-ai-software-development-teams/",
+    "source": "siliconangle.com",
+    "foundAt": "2026-06-10 08:01:08",
+    "publishedAt": "2026-06-10",
+    "summary": "Augment Code’s Cosmos launch pitches agentic software development across triage, spec, implementation, review, testing and deployment. *(Older than 48h: Jun 5, still active thread.)*",
+    "suggestedAngle": "The interesting shift is not “AI writes code” but “AI changes coordination”; teams need shared context, decision records and review boundaries.",
+    "themes": [
+      "software-development"
+    ],
+    "lane": "software development",
+    "status": "new",
+    "agentScore": 80,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 4,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://siliconangle.com/2026/06/05/augment-code-launches-cosmos-bring-agentic-ai-software-development-teams/",
+      "https://www.augmentcode.com/blog/cosmos-the-platform-for-ai-native-engineering-teams"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-10_08-01-08.md"
+  },
+  {
+    "id": "article-2026-06-10-36862ca3",
+    "title": "Security validation for third-party coding agents: small feature, big signal",
+    "url": "https://github.blog/changelog/2026-06-09-security-validation-for-third-party-coding-agents/",
+    "source": "github.blog",
+    "foundAt": "2026-06-10 08:01:08",
+    "publishedAt": "2026-06-10",
+    "summary": "GitHub made security validation for third-party coding agents generally available on Jun 9, including agents like Claude and OpenAI Codex.",
+    "suggestedAngle": "Agent-written code should be treated like third-party code: scanned, policy-checked and reviewed before merge, regardless of which model produced it.",
+    "themes": [
+      "software-development"
+    ],
+    "lane": "cybersecurity/trust",
+    "status": "new",
+    "agentScore": 85,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 4,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://github.blog/changelog/2026-06-09-security-validation-for-third-party-coding-agents/",
+      "https://docs.github.com/en/copilot/concepts/agents/about-third-party-coding-agents"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-10_08-01-08.md"
+  },
+  {
+    "id": "article-2026-06-10-0313ddff",
+    "title": "AI code review is becoming infrastructure, not a novelty",
+    "url": "https://www.helpnetsecurity.com/2026/06/08/github-copilot-app-ai-coding-agents/",
+    "source": "helpnetsecurity.com",
+    "foundAt": "2026-06-10 08:01:08",
+    "publishedAt": "2026-06-10",
+    "summary": "GitHub’s Copilot app and code review updates add higher-reasoning review tiers and agent-native workflows.",
+    "suggestedAngle": "Teams should define what AI review is allowed to approve, what must remain human-owned, and how review quality is measured.",
+    "themes": [
+      "software-development"
+    ],
+    "lane": "software development",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 4,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.helpnetsecurity.com/2026/06/08/github-copilot-app-ai-coding-agents/",
+      "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-10_08-01-08.md"
+  },
+  {
+    "id": "article-2026-06-10-69a5d29d",
+    "title": "EU AI Act readiness: the boring work is now the differentiator",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "source": "digital-strategy.ec.europa.eu",
+    "foundAt": "2026-06-10 08:01:08",
+    "publishedAt": "2026-06-10",
+    "summary": "August 2026 obligations are approaching for transparency/high-risk systems, with guidance emphasizing classification, risk management, human oversight and data governance.",
+    "suggestedAngle": "Don’t start with legal panic; start with an AI system inventory, owner per system, intended use, risk class, human oversight design and evidence trail.",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 79,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "https://artificialintelligenceact.eu/implementation-timeline/",
+      "https://www.legalnodes.com/article/eu-ai-act-2026-updates-compliance-requirements-and-business-risks"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-10_08-01-08.md"
+  },
+  {
+    "id": "article-2026-06-10-9a709dd2",
+    "title": "Non-human identities are the next governance blind spot",
+    "url": "https://www.okta.com/newsroom/articles/ai-agents-at-work-2026-agentic-enterprise-security/",
+    "source": "okta.com",
+    "foundAt": "2026-06-10 08:01:08",
+    "publishedAt": "2026-06-10",
+    "summary": "Okta’s 2026 agent security discussion highlights a gap between widespread agent adoption and mature strategies for managing non-human identities.",
+    "suggestedAngle": "If an agent can read, write, call APIs or trigger workflows, it needs identity, least privilege, audit logs and revocation — not just a prompt.",
+    "themes": [
+      "cybersecurity-trust"
+    ],
+    "lane": "cybersecurity/trust",
+    "status": "new",
+    "agentScore": 79,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.okta.com/newsroom/articles/ai-agents-at-work-2026-agentic-enterprise-security/",
+      "https://www.okta.com/newsroom/articles/enterprise-buyer-survey-ai-agent-security/"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-10_08-01-08.md"
+  },
+  {
+    "id": "article-2026-06-10-b10ef68a",
+    "title": "Developers are juggling multiple AI tools — governance has to meet reality",
+    "url": "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026",
+    "source": "newsletter.pragmaticengineer.com",
+    "foundAt": "2026-06-10 08:01:08",
+    "publishedAt": "2026-06-10",
+    "summary": "Recent developer tooling discussions show many engineers using several AI tools at once, with agent use growing among senior developers. *(Recent discussion, not necessarily last 48h.)*",
+    "suggestedAngle": "Instead of banning tool sprawl, create practical guardrails: approved data types, repo rules, disclosure norms, secure defaults and lightweight team rituals.",
+    "themes": [
+      "building-in-public"
+    ],
+    "lane": "builder-in-public",
+    "status": "new",
+    "agentScore": 79,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 4,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026",
+      "https://www.d4b.dev/blog/2026-05-23-what-the-state-of-ai-2026-survey-says-about-developer-work"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-10_08-01-08.md"
+  },
+  {
+    "id": "article-2026-06-10-42db24e4",
+    "title": "AI-generated content labels are becoming a product requirement, not a legal afterthought",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "source": "digital-strategy.ec.europa.eu",
+    "foundAt": "2026-06-10 18:02:00",
+    "publishedAt": "2026-06-10",
+    "summary": "The European Commission published its Code of Practice on marking and labelling AI-generated content on 10 June, ahead of Article 50 transparency obligations taking effect in August 2026.",
+    "suggestedAngle": "Teams should treat disclosure, watermarking/metadata, UX copy, and vendor contracts as design decisions — not something compliance bolts on later.",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-10_18-02-00.md"
+  },
+  {
+    "id": "article-2026-06-10-83f8f3ac",
+    "title": "Enterprise agents need an “employee lifecycle”: identity, access, monitoring, offboarding",
+    "url": "https://news.microsoft.com/source/2026/06/09/kpmg-and-microsoft-scale-trusted-enterprise-ai-agents-globally-through-deployment-of-agent-365-and-copilot/",
+    "source": "news.microsoft.com",
+    "foundAt": "2026-06-10 18:02:00",
+    "publishedAt": "2026-06-10",
+    "summary": "Microsoft and KPMG announced a trusted enterprise-agent deployment using Agent 365 and Copilot on 9 June, explicitly focused on managing, monitoring, and securing AI agents.",
+    "suggestedAngle": "If agents act in business systems, governance should look less like prompt policy and more like IAM + audit trails + least privilege + human escalation.",
+    "themes": [
+      "cybersecurity-trust"
+    ],
+    "lane": "cybersecurity/trust",
+    "status": "new",
+    "agentScore": 80,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://news.microsoft.com/source/2026/06/09/kpmg-and-microsoft-scale-trusted-enterprise-ai-agents-globally-through-deployment-of-agent-365-and-copilot/"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-10_18-02-00.md"
+  },
+  {
+    "id": "article-2026-06-10-9bfe641e",
+    "title": "Coding agents are becoming desktop workflow tools — issue quality now matters more",
+    "url": "https://www.helpnetsecurity.com/2026/06/08/github-copilot-app-ai-coding-agents/",
+    "source": "helpnetsecurity.com",
+    "foundAt": "2026-06-10 18:02:00",
+    "publishedAt": "2026-06-10",
+    "summary": "GitHub’s Copilot desktop app for working with coding agents was covered on 8 June, following Build announcements around agentic development workflows.",
+    "suggestedAngle": "The productivity unlock is not “AI writes code”; it is teams learning to write better tasks, acceptance criteria, tests, and review gates.",
+    "themes": [
+      "software-development"
+    ],
+    "lane": "software development",
+    "status": "new",
+    "agentScore": 80,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 4,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.helpnetsecurity.com/2026/06/08/github-copilot-app-ai-coding-agents/",
+      "https://github.blog/news-insights/product-news/github-copilot-meet-the-new-coding-agent/"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-10_18-02-00.md"
+  },
+  {
+    "id": "article-2026-06-10-bdb5a93f",
+    "title": "Policy-controlled, auditable execution” may become the default safety pattern for agents",
+    "url": "https://www.theverge.com/news/821948/microsoft-windows-11-ai-agents-taskbar-integration",
+    "source": "theverge.com",
+    "foundAt": "2026-06-10 18:02:00",
+    "publishedAt": "2026-06-10",
+    "summary": "Microsoft’s recent Windows agentic OS push highlights contained, policy-controlled, auditable environments for agents.",
+    "suggestedAngle": "The interesting part is not Windows becoming “AI-first”; it is mainstream UX starting to absorb security controls like sandboxing, permissions, and auditability.",
+    "themes": [
+      "cybersecurity-trust"
+    ],
+    "lane": "cybersecurity/trust",
+    "status": "new",
+    "agentScore": 80,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.theverge.com/news/821948/microsoft-windows-11-ai-agents-taskbar-integration",
+      "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-10_18-02-00.md"
+  },
+  {
+    "id": "article-2026-06-10-aaef0857",
+    "title": "Shadow AI is turning into shadow operations",
+    "url": "https://www.gravitee.io/blog/state-of-ai-agent-security-2026-report-when-adoption-outpaces-control",
+    "source": "gravitee.io",
+    "foundAt": "2026-06-10 18:02:00",
+    "publishedAt": "2026-06-10",
+    "summary": "Recent AI-agent security discussions warn that many agents operate without full approval, logging, or security oversight.",
+    "suggestedAngle": "Organizations do not need an “AI ban”; they need an agent inventory, runtime visibility, access boundaries, and a lightweight approval path builders will actually use.",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.gravitee.io/blog/state-of-ai-agent-security-2026-report-when-adoption-outpaces-control",
+      "https://www.cio.com/article/4162664/shadow-ai-morphs-into-shadow-operations.html",
+      "https://cloudsecurityalliance.org/blog/2026/05/26/shadow-ai-agents-the-insider-threat-you-re-not-monitoring-yet"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-10_18-02-00.md"
+  },
+  {
+    "id": "article-2026-06-10-32547093",
+    "title": "Europe’s tech sovereignty push is also a builder workflow story",
+    "url": "https://commission.europa.eu/news-and-media/news/strengthening-europes-tech-sovereignty-2026-06-03_en",
+    "source": "commission.europa.eu",
+    "foundAt": "2026-06-10 18:02:00",
+    "publishedAt": "2026-06-10",
+    "summary": "Older but still active thread: the Commission’s 3 June tech sovereignty package focuses on AI, cloud, open source, autonomy, and resilience.",
+    "suggestedAngle": "Sovereignty should not be framed only as politics; for builders it means portability, open standards, procurement choices, dependency mapping, and exit plans.",
+    "themes": [
+      "responsible-ai"
+    ],
+    "lane": "responsible AI/governance",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://commission.europa.eu/news-and-media/news/strengthening-europes-tech-sovereignty-2026-06-03_en",
+      "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1187",
+      "https://www.techpolicy.press/eu-unveils-sweeping-tech-sovereignty-push-balancing-autonomy-with-openness/"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-10_18-02-00.md"
+  },
+  {
+    "id": "article-2026-06-10-c5a3254f",
+    "title": "AI-assisted development raises the bar for software supply-chain hygiene",
+    "url": "https://www.esecurityplanet.com/threats/ai-software-supply-chain-threats-escalate-in-2026/",
+    "source": "esecurityplanet.com",
+    "foundAt": "2026-06-10 18:02:00",
+    "publishedAt": "2026-06-10",
+    "summary": "Recent 2026 supply-chain reporting links AI-driven development with more malicious package activity, insecure AI tooling, and governance gaps.",
+    "suggestedAngle": "Treat AI-generated snippets, suggested packages, and agent-created PRs as untrusted inputs until provenance, dependency checks, secrets scanning, and review gates pass.",
+    "themes": [
+      "cybersecurity-trust"
+    ],
+    "lane": "cybersecurity/trust",
+    "status": "new",
+    "agentScore": 72,
+    "userRating": null,
+    "notes": "",
+    "sourceQuality": 4,
+    "timeliness": 4,
+    "audienceFit": 5,
+    "practicalValue": 4,
+    "originality": 3,
+    "sourceLinks": [
+      "https://www.esecurityplanet.com/threats/ai-software-supply-chain-threats-escalate-in-2026/",
+      "https://www.reversinglabs.com/sscs-report",
+      "https://cloudsecurityalliance.org/blog/2026/03/13/the-state-of-cloud-and-ai-security-in-2026"
+    ],
+    "rawCronFile": "/data/data/com.termux/files/home/.hermes/cron/output/c882550d54b6/2026-06-10_18-02-00.md"
+  }
+]
